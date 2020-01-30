@@ -43,7 +43,7 @@ public class Oven {
 		System.out.println("Oven Temperature in Degree Centigrade:" +Temp );
 		System.out.println("Oven Function Mode:" + Func );
 		System.out.println("Oven Timer in minutes:" + Time );
-		System.out.println( "Timer progressed and Beeped at 0 minutes: Baked Cake is ready ");
+		
 	}
 
 	void Ovenoff() 

@@ -22,12 +22,17 @@ public class BakerCommand {
 			Oven oven = new Oven();
 			OvenonCommand ovencmd = new OvenonCommand(oven);
 			ovencmd.execute();
+			OvenoffCommand ovencmd1 = new OvenoffCommand(oven);
+			ovencmd1.execute();
+			
     	} 
 		else if (this.commandType.equals("DecorateCake"))
 		{
 			DecorateCake decorate = new DecorateCake();
-			CompleteCakeCommand cakecmd = new CompleteCakeCommand(decorate);
+			StartDecorateCommand cakecmd =new StartDecorateCommand(decorate);
 			cakecmd.execute();
+			CompleteCakeCommand cakecmd1 = new CompleteCakeCommand(decorate);
+			cakecmd1.execute();
 
 		} 
 

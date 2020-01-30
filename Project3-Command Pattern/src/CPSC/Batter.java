@@ -1,5 +1,5 @@
 package CPSC;
-    // Receiver Class
+    
     //Select the ingredients for the cake ordered. 
 	//Select the options from the Customer order for the Cake Type, Cake Size ,and Flavor.
 	//Mix all the required ingredients and prepare the Batter
